@@ -1,6 +1,6 @@
 FROM walkerk1980/cloudhsm-pkcs11
 WORKDIR /root/
-RUN /usr/bin/pip3 install python-pkcs11
+#RUN /usr/bin/pip3 install python-pkcs11
 RUN /usr/bin/pip3 install pytest
 RUN apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get -o Dpkg::Options::="--force-confnew" --assume-yes -y --yes -f install -y \ 
