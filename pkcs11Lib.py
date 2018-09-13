@@ -37,4 +37,3 @@ def login_session():
     session.login(credentials)
     print()
 
-login_session()
