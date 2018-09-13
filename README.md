@@ -1,4 +1,4 @@
-CloudHSM client container based on Ubuntu with CloudHSM client and PKCS#11 library and PyKCS11 module installed.
+CloudHSM client container based on Ubuntu with CloudHSM client, PKCS#11 library and PyKCS11 module installed.
 
 Prerequisites:
 
