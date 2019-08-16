@@ -20,7 +20,7 @@ Getting Started:
 
   docker cp /path/to/customerCA.crt cloudhsm:/root/data/
 
-  docker stop cloudhsm && docker rm cloudhsm
+  docker stop cloudhsm
 
   docker pull walkerk1980/cloudhsm-pkcs11-python
   
