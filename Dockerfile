@@ -1,6 +1,6 @@
 FROM walkerk1980/cloudhsm-pkcs11
 WORKDIR /root/
-RUN /usr/bin/pip3 install --upgrade pip
+#RUN /usr/bin/pip3 install --upgrade pip
 RUN /usr/bin/pip3 install pytest PyKCS11
 #RUN /usr/bin/pip3 install pytest python-pkcs11
 COPY pkcs11Lib.py test_pkcs11Lib.py pkcs11Login.py test_pkcs11Login.py /root/
